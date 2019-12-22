@@ -1,0 +1,27 @@
+/* //META{ "name": "EnlargeEmojis", "description": "Enlarge every emoji when you hover your mouse over.", "author": "NightWolf", "version": "1.0"} *//**/
+
+.markup-2BOw-j .emoji.jumboable{
+    width: 3rem;
+    height: 3rem;
+    min-height: 3rem;
+    transition: 200ms cubic-bezier(.2, .11, 0, 1);
+}
+
+.markup-2BOw-j .emoji.jumboable:hover{
+    width: 10rem;
+    height: 10rem;
+    min-height: 10rem;
+    transition: 200ms cubic-bezier(.2, .11, 0, 1);
+}
+
+.markup-2BOw-j .emoji{
+    width: 1.375em;
+    height: 1.375em;
+    transition: 200ms cubic-bezier(.2, .11, 0, 1);
+}
+
+.markup-2BOw-j .emoji:hover{
+    width: 3em;
+    height: 3em;
+    transition: 200ms cubic-bezier(.2, .11, 0, 1);
+}
