@@ -1,0 +1,11 @@
+/* //META{ "name": "BlurImages", "description": "Blur all the images on chat.", "author": "NightWolf", "version": "1.0"} *//**/
+
+.imageWrapper-2p5ogY img{
+    filter: blur(1.5rem);
+    transition: 200ms cubic-bezier(.2, .11, 0, 1);
+}
+
+.imageWrapper-2p5ogY img:hover{
+    filter: none;
+    transition: 200ms cubic-bezier(.2, .11, 0, 1);
+}
